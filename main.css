@@ -2007,3 +2007,9 @@ body:not(.powercord) .panels-3wFtMD::after {
 .attachButtonPlay-1ATmb5 {
   color: var(--accent-color);
 }
+.theme-dark .perksModal-CLcR1c {
+  background-color: transparent !important;
+}
+.theme-dark .tierMarkerBackground-G8FoN4 {
+  background-color: var(--background-tertiary);
+}

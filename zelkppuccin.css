@@ -39,7 +39,7 @@
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
 :root {
-  --accent-base-dark: 248, 189, 150;
+  --accent-base-dark: 250, 227, 176;
   --accent-base-light: 254, 100, 11;
 }
 .theme-dark {
