@@ -6,7 +6,7 @@
 ███████╗███████╗███████╗██║░╚██╗░░╚═╝░░
 ╚══════╝╚══════╝╚══════╝╚═╝░░╚═╝░░░░░░░*/
 /*--------------IMPORTS------------- */
-@import url(/main.css);
+@import url(https://anubisnekhet.github.io/zelkppuccin/main.css);
 @import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
 /*
 /*--------------COLORS---------------*/
@@ -55,6 +55,7 @@
 .theme-light {
   --accent-color-1: rgba(var(--accent-base-light), 187);
   --accent-color-2: rgba(var(--accent-base-light), 221);
+  --accent-color-3: rgba(var(--accent-base-light), 0.6);
   --background-1: rgb(220, 224, 232);
   --background-2: rgb(239, 241, 245);
   --background-accent: rgb(230, 233, 239);
