@@ -168,5 +168,9 @@
     content: "";
     background: url("https://media.discordapp.net/attachments/932674476250918946/1003877584121118750/app_ankidroid.png") center/100% no-repeat;
     padding: 0px 9px 0px 9px;
-    margin-right: 6px;
+    margin-left: 3px;
+}
+.withTagAsButton-OsgQ9L, .withTagless-10ooWt {
+  min-width: 0px;
+  padding-right: 5px;
 }
