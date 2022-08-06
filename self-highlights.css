@@ -21,3 +21,10 @@ div[data-author-id="954325714436493332"] .contents-2MsGLg .messageContent-2t3eCI
     /*--Your God-Awful Declarations--*/
     color: #FAE3B0;
     }
+    .banner-1YaD3N, .popoutBanner-3cqRD9 {
+      background-image: url('https://media.discordapp.net/attachments/886287835018178560/1005397117063417906/catppuccin-planet.png?width=1522&height=856');
+      /* background-color: rgb(255, 182, 0); */
+      background-size: cover;
+      background-clip: border-box;
+      background-position: center;
+  }
