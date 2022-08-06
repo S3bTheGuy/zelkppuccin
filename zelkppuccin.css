@@ -175,3 +175,15 @@
   min-width: 0px;
   padding-right: 5px;
 }
+.banner-1YaD3N, .popoutBanner-3cqRD9 {
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center;
+}
+.profileGroup-1yKk23 .banner-1YaD3N, .profileGroup-1yKk23 .popoutBanner-3cqRD9 {
+  background-image: url('https://media.discordapp.net/attachments/886287835018178560/1005397117063417906/catppuccin-planet.png?width=1522&height=856');
+  /* background-color: rgb(255, 182, 0); */
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center;
+}
