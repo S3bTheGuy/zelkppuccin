@@ -33,3 +33,19 @@ div[data-author-id="954325714436493332"] .contents-2MsGLg .messageContent-2t3eCI
     background-clip: border-box;
     background-position: center;
 }
+[data-author-id="928339066838216754"] .headerText-2z4IhQ .username-h_Y3Us::after,
+[data-user-id="928339066838216754"] + .header-1dhDWV::after,
+[data-user-id="928339066838216754"] + .text-3j8t_e .username-3JLfHz::after,
+[data-user-id="928339066838216754"] + .listName-PwbeHL .username-3JLfHz::after {
+    content: "";
+    background: url("https://media.discordapp.net/attachments/932674476250918946/1003877584121118750/app_ankidroid.png") center/100% no-repeat;
+    padding: 0px 9px 0px 9px;
+    margin-left: 3px;
+}
+.profileGroup-1yKk23 .banner-1YaD3N, .profileGroup-1yKk23 .popoutBanner-3cqRD9 {
+  background-image: url('https://media.discordapp.net/attachments/886287835018178560/1005397117063417906/catppuccin-planet.png?width=1522&height=856');
+  /* background-color: rgb(255, 182, 0); */
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center;
+}

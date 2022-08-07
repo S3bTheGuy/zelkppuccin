@@ -2019,3 +2019,7 @@ body:not(.powercord) .panels-3wFtMD::after {
 .radioIconForeground-2BMavi {
   color: var(--accent-color);
 }
+.withTagAsButton-OsgQ9L, .withTagless-10ooWt {
+  min-width: 0px;
+  padding-right: 5px;
+}
