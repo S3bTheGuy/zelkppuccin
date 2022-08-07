@@ -2023,3 +2023,9 @@ body:not(.powercord) .panels-3wFtMD::after {
   min-width: 0px;
   padding-right: 5px;
 }
+.infoScroller-1QMpon {
+  padding-bottom: 12px;
+}
+.theme-dark .contentWrapper-3oy4Xo {
+  background: none;
+}
