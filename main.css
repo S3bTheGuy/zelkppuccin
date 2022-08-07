@@ -2013,3 +2013,6 @@ body:not(.powercord) .panels-3wFtMD::after {
 .theme-dark .tierMarkerBackground-G8FoN4 {
   background-color: var(--background-tertiary);
 }
+.theme-dark .background-fkKrXt {
+  background-color: transparent;
+}
