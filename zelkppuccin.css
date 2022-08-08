@@ -163,3 +163,10 @@
   --button-destructive-active: #fa4a4a;
 }
 
+/*------------------TEMPORARY EDITS, DELETE LATER----------------*/
+.pc-notice-container .contents-3ca1mk {
+  color: var(--accent-color);
+}
+.pc-notice-button {
+  border-color: var(--accent-color) !important;
+}
