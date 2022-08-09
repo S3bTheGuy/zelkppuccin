@@ -2132,3 +2132,6 @@ div.spotify-seek-bar {
   background-color: var(--background-primary);
   color: var(--accent-color);
 }
+.avatarWrapper-1B9FTW:hover .title-338goq {
+  color: var(--background-primary);
+}
