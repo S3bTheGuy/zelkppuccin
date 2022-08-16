@@ -661,8 +661,12 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
   background-color: var(--background-primary) !important;
 }
 /* mentions */
-.wrapper-1ZcZW- {
-  background: #BDE6FB30 !important;
+.theme-dark .wrapper-1ZcZW- {
+  background: rgba(var(--accent-base-dark), 0.2) !important;
+  color: var(--accent-color);
+}
+.theme-light .wrapper-1ZcZW- {
+  background: rgba(var(--accent-base-light), 0.2) !important;
   color: var(--accent-color);
 }
 /* profiles */
@@ -1953,7 +1957,7 @@ body:not(.powercord) .panels-3wFtMD::after {
 /*----------Greentext color shift------*/
 .greentext {
   color: #4f8d58 !important;
-  font-family: Iosevka, "Iosevka Comfy Duo";
+  font-family: "Iosevka Comfy Duo";
 }
 
 /*-------Powercord CSS Title Fix---------*/

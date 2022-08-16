@@ -40,7 +40,7 @@
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
 :root {
-  --accent-base-dark: 248, 211, 150;
+  --accent-base-dark: 201, 203, 255;
   --accent-base-light: 254, 100, 11;
 }
 .theme-dark {
@@ -192,4 +192,8 @@
 /*---------INVITE RECOLOR-------*/
 .cursorDefault-2KkZ5q {
   background-color: var(--background-tertiary);
+}
+.wrapper-1ZcZW- {
+  background: rgba(var(--accent-base-dark), 0.2) !important;
+  color: var(--accent-color);
 }
