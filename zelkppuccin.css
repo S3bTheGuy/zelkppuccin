@@ -52,6 +52,7 @@
   --background-2: #1E1E2E;
   --background-accent: #1E1E2E;
   --border-color: #302D41;
+  --crust: #161320;
 }
 /*-------------LIGHT MODE------------*/
 .theme-light {
@@ -63,12 +64,13 @@
   --background-2: rgb(239, 241, 245);
   --background-accent: rgb(230, 233, 239);
   --border-color: rgb(239, 241, 245);
+  --crust: rgb(220, 224, 232);
 }
 /*-------------ADVANCED--------------*/
 .theme-dark {
   /* background */
   --background-primary: var(--background-1);
-  --background-primary-alt: var(--background-1);
+  --background-primary-alt: var(--crust);
   --background-secondary: var(--background-1);
   --background-secondary-alt: var(--background-1);
   --background-tertiary: var(--background-2);
@@ -80,7 +82,7 @@
   --background-modifier-hover: #1E1E2E;
   --background-modifier-active: #4a4361;
   --background-modifier-selected: var(--accent-color);
-  --background-modifier-accent: transparent;
+  --background-modifier-accent: rgb(var(--accent-base-dark), 0.05);
   --background-message-hover: transparent;
   /* text */
   --text-normal: #D9E0EE;
@@ -114,11 +116,12 @@
   --button-destructive: #E8A2AF;
   --button-destructive-hover: #d38795;
   --button-destructive-active: #F28FAD;
+  --button-secondary-background: var(--background-1);
 }
 .theme-light {
   /* background */
   --background-primary: var(--background-1);
-  --background-primary-alt: var(--background-1);
+  --background-primary-alt: var(--crust);
   --background-secondary: var(--background-1);
   --background-secondary-alt: var(--background-1);
   --background-tertiary: var(--background-2);
@@ -162,6 +165,7 @@
   --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
+  --button-secondary-background: var(--background-1);
 }
 
 /*------------------TEMPORARY EDITS, DELETE LATER----------------*/
@@ -385,4 +389,117 @@
 .medium-13kyaW .input-2FSSDe, .medium-13kyaW .tag-15zcD_ { background-color: var(--background-primary) !important; }
 .live-1V2D-f { background-color: var(--button-destructive-active) !important; color: var(--background-primary); font-size: 70%; font-weight: 700;}
 .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 { background-color: var(--border-color);}
-.markup-eYLPri strong { font-family: "Iosevka Comfy Duo"; }
+.profileBadges-31rDHI, .overlayBackground-arbZMT  { background-color: var(--background-primary-alt); }
+.divider-1tWBgZ { background-color: var(--border-color); height: 4px; border-radius: 2px; display: none;}
+.streamPreview-3Fo29Y { background: var(--background-primary);}
+.cta-3-AFNF { background-color: var(--background-2);}
+.profileBanner-2zIsK7 { min-height: 200px}
+/* Fix horrible profile color perk*/
+.userPopoutThemed-3BZ4by {
+  --accent-color: rgb(var(--accent-base-dark));
+  --accent-color-1: rgba(var(--accent-base-dark), 0.7);
+  --accent-color-2: rgba(var(--accent-base-dark), 0.9);
+  --accent-color-3: rgba(var(--accent-base-dark), 0.6);
+  --background-1: #1A1826;
+  --background-2: #1E1E2E;
+  --background-accent: #1E1E2E;
+  --border-color: #302D41;
+  --crust: #161320;
+  --background-mentioned: #bde6fb10;
+  --background-mentioned-hover: #bde6fb15;
+  /* modifiers */
+  --background-modifier-hover: #1E1E2E;
+  --background-modifier-active: #4a4361;
+  --background-modifier-selected: var(--accent-color);
+  --background-modifier-accent: rgb(var(--accent-base-dark), 0.05);
+  --background-message-hover: transparent;
+  /* text */
+  --text-normal: #D9E0EE;
+  --text-positive: #D9E0EE;
+  --text-muted: #988BA2;
+  background: var(--background-secondary-alt);
+}
+.userPopoutInner-PA9zkU:before { 
+  background-color: transparent;
+}
+.rolePill-2IJ1vo {
+  background-color: inherit;
+}
+.messageInputContainer-2rGDH8 {
+  border-width: 0px;
+}
+.userPopoutInnerWithBanner-wsoegj {
+  background: var(--background-secondary-alt);
+}
+/* Message link previews */
+.compact-2Nkcau .headerText-2z4IhQ.hasRoleIcon-1Usc6e, .cozy-VmLDNB .headerText-2z4IhQ.hasRoleIcon-1Usc6e, .cozy-VmLDNB .timestamp-p1Df1m { font-family: var(--font-primary);}
+.powercord-spotify .fa-sync.active::before {
+  content: "\f365";
+}
+.powercord-spotify .fa-sync::before {
+  content: "\f363";
+}
+.powercord-spotify .fa-undo::before {
+  content: "\f061";
+}
+.userPopoutInnerPremiumWithoutBanner-na5t_W {
+  background: var(--background-2);
+}
+.discordMemberCreatedAt-3htTfn {
+  height: 24px;
+  padding: 8px;
+}
+
+.discordMemberCreatedAtIconContainer-2NS-8S {
+  padding: 0px;
+  background-color: var(--background-tertiary);
+}
+
+.discordMemberCreatedAtText-18ZCAV>div{
+  display: none;
+}
+
+.discordMemberCreatedAt-3htTfn>.discordMemberCreatedAtText-18ZCAV>h3{
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 600;
+  user-select: text;
+}
+.headerText-2z4IhQ span.desaturateUserColors-1O-G89:after {
+  background-color: currentColor;
+  opacity: 0.2;
+  left: 0;
+  position: absolute;
+  border-radius: 5px;
+  content: " ";
+  width: 100%;
+  padding: 0 0.2rem;
+}
+.member-2gU6Ar span.desaturateUserColors-1O-G89:after {
+  background-color: currentColor;
+  opacity: 0.1;
+  left: 0;
+  position: absolute;
+  border-radius: 8px;
+  top: 0rem;
+  content: " ";
+  height: 42px;
+  width: calc(100% - 6px);
+  padding: 0 0.2rem;
+}
+.container-1oeRFJ {
+  margin-block-start: 3px;
+}
+.headerText-2z4IhQ .username-h_Y3Us {
+  padding-left: 0.4rem;
+}
+.headerText-2z4IhQ .roleIcon-zWuatl {
+  margin-left: 0.75rem;
+  margin-right: -0.3rem;
+}
+.cozy-VmLDNB .timestamp-p1Df1m {
+  margin-left: 0.4rem;
+}
+.imageContainer-10XenG, .imageContent-3Av-9c {
+  padding-top: 2px;
+}
