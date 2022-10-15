@@ -369,7 +369,12 @@
     width: 100%;
   }
 }
-
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .content-1U25dZ, .name-3Vmqxm { display: none;}
+  .members-3WRCEx { width: max-content;}
+  .membersWrap-3NUR2t { min-width: 0;}
+  .membersGroup-2eiWxl { display: none; }
+}
 @media screen and (min-width: 0px) and (max-width: 900px) {
   .BF-folderSidebar { display: none !important; margin-left: 0px;}
   .chat-2ZfjoI {margin-left: 0px;}
