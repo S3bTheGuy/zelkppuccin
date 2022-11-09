@@ -2784,3 +2784,24 @@ div.spotify-seek-bar {
 .imageContainer-10XenG, .imageContent-3Av-9c {
   padding-top: 2px;
 }
+#vencordplugins-tab {
+  --background-modifier-selected: var(--background-1);
+}
+.vc-spotify-shuffle-on, .vc-spotify-repeat-context, .vc-spotify-repeat-track {
+  color: var(--interactive-normal);
+}
+.vc-spotify-button-row .vc-spotify-button.vc-spotify-shuffle-on,
+.vc-spotify-button-row .vc-spotify-button.vc-spotify-repeat-context,
+.vc-spotify-button-row .vc-spotify-button.vc-spotify-repeat-track {
+  color: var(--interactive-normal);
+}
+#vc-spotify-progress-bar > [class^="slider"] [class^="grabber"] {
+  background-color: var(--background-primary) !important;
+}
+.vc-spotify-button-row .vc-spotify-button.vc-spotify-repeat-off,
+.vc-spotify-button-row .vc-spotify-button.vc-spotify-shuffle-off {
+  color: var(--text-muted);
+}
+.vc-spotify-button-row .vc-spotify-button:hover {
+  color: var(--background-primary) !important;
+}
