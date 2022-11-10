@@ -2805,3 +2805,6 @@ div.spotify-seek-bar {
 .vc-spotify-button-row .vc-spotify-button:hover {
   color: var(--background-primary) !important;
 }
+.directoryModal-YJsOMv {
+  background-color: var(--background-tertiary) !important;
+}
