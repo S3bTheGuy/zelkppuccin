@@ -2769,4 +2769,6 @@ div.spotify-seek-bar {
 .lookOutlined-3yKVGo.colorPrimary-2AuQVo,
 .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover {
   background-color: var(--background-1);
+  border-color: var(--background-1);
+  padding-right: 0;
 }
