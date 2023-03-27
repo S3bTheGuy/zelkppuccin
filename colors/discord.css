@@ -32,8 +32,8 @@
   --background-modifier-accent: #ffffff0f !important;
   --background-message-hover: #04040512 !important;
   --interactive-normal: #b9bbbe !important;
-  --interactive-muted: #4f545c!important;
-  --channels-default: #8e9297 !important;
+  --interactive-muted: #737994!important;
+  --channels-default: #838ba7 !important;
   --header-primary: #fff !important;
   --header-secondary: #b9bbbe !important;
   --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%) !important;
@@ -42,7 +42,7 @@
   --interactive-active: #fff !important;
   --interactive-hover: #dcddde !important;
   --accent-color: var(--brand-experiment);
-  --channeltextarea-background: #40444b;
+  --channeltextarea-background: #292c3c;
 }
 .theme-light, .theme-dark {
   --brand-experiment: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%) !important
