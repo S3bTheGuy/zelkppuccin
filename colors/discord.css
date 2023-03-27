@@ -44,6 +44,9 @@
   --accent-color: var(--brand-experiment);
   --channeltextarea-background: #292c3c;
 }
+::-webkit-input-placeholder, body, button, input, select, textarea {
+  font-family: "SF Mono Ligatures", monospace;
+}
 .theme-light, .theme-dark {
   --brand-experiment: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%) !important
 }
