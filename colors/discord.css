@@ -43,7 +43,7 @@
   --interactive-hover: #dcddde !important;
   --accent-color: var(--brand-experiment);
   --channeltextarea-background: #292c3c;
-  --font-primary: "SF Mono ligatures";
+  --font-primary: "Liga SFMono Nerd Font";
 }
 .theme-light, .theme-dark {
   --brand-experiment: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%) !important
