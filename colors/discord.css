@@ -49,23 +49,23 @@
     --brand-experiment: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%) !important
   }
   .contentRegionScroller-2_GT_N {
-      background-color: #e78284 !important;
+      background-color: var(--background-primary) !important;
   }
   .sidebarRegionScroller-FXiQOh {
-      background: #ea999c !important;
+      background: var(--background-secondary) !important;
   }
   .childWrapper-1j_1ub {
-      color: #c6d0f5 !important;
+      color: var(--text-normal) !important;
   }
   .circleIconButton-1QV--U {
-      color: #b5bfe2;
+      color: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
   }
   .container-2nx-BQ:not([style*="218"]), .bd-switch-checked .bd-switch-body {
-      background-color: #b5bfe2 !important;
+      background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%) !important;
   }
   .body-1Ukv50, .activity-3v9l4T, .profileBanner-1owKI5, .avatar-2Vndt_, .headerTop-2y3V6H, .headerTop-3GPUSF, .headerTop-2cWpdB, .activity-fViXj7, .body-2wLx-E, .topSection-13QKHs, .banner-1YaD3N:not(.settingsBanner-1eDJ5w), .avatar-3QF_VA, .aboutMeSection---MkQa, .footer-3naVBw, .footer-1N3bR3, .bodyInnerWrapper-2bQs1k, .profileBannerPreview-3_l0Wd, .userPopout-2j1gM4, .bannerNormal-22rPhb {
-      background-color: #a5adce !important;
+      background-color: var(--background-floating) !important;
   }
   .bd-button {
-      background-color: #626880;
+      background-color: #3e82e5;
   }
