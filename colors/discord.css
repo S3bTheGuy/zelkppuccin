@@ -1,10 +1,10 @@
 /* Discord */
 :root {
-    --background-primary: #2c2f33 !important;
-    --background-secondary: #23272a !important;
-    --background-secondary-alt: #23272a !important;
-    --background-tertiary: #202225 !important;
-    --background-floating: #202225 !important;
+    --background-primary: #303446 !important;
+    --background-secondary: #292c3c !important;
+    --background-secondary-alt: #292c3c !important;
+    --background-tertiary: #232634 !important;
+    --background-floating: #232634 !important;
     --background-accent: #414559 !important;
     --border-color: var(--background-modifier-accent);
     --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1) !important;
@@ -18,8 +18,8 @@
     --tab-selected: var(--background-modifier-selected) !important;
     --switch: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%) !important;
     --button-background: #626880 !important;
-    --button-background-hover: #202225 !important;
-    --button-background-active: #202225 !important;
+    --button-background-hover: #232634 !important;
+    --button-background-active: #232634 !important;
     --button-accent: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
     --button-accent-hover: var(--brand-experiment-560) !important;
     --button-accent-active: var(--brand-experiment-600) !important;
@@ -42,33 +42,31 @@
     --interactive-active: #fff !important;
     --interactive-hover: #dcddde !important;
     --accent-color: var(--brand-experiment);
-    --channeltextarea-background: #23272a;
+    --channeltextarea-background: #292c3c;
     --font-primary: "Liga SFMono Nerd Font";
   }
   .theme-light, .theme-dark {
     --brand-experiment: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%) !important
   }
   .contentRegionScroller-2_GT_N {
-      background-color: var(--background-primary) !important;
+      background-color: #e78284 !important;
   }
   .sidebarRegionScroller-FXiQOh {
-      background: var(--background-secondary) !important;
+      background: #ea999c !important;
   }
   .childWrapper-1j_1ub {
-      color: var(--text-normal) !important;
+      color: #c6d0f5 !important;
   }
   .circleIconButton-1QV--U {
-      color: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+      color: #b5bfe2;
   }
   .container-2nx-BQ:not([style*="218"]), .bd-switch-checked .bd-switch-body {
-      background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%) !important;
+      background-color: #b5bfe2 !important;
   }
   .body-1Ukv50, .activity-3v9l4T, .profileBanner-1owKI5, .avatar-2Vndt_, .headerTop-2y3V6H, .headerTop-3GPUSF, .headerTop-2cWpdB, .activity-fViXj7, .body-2wLx-E, .topSection-13QKHs, .banner-1YaD3N:not(.settingsBanner-1eDJ5w), .avatar-3QF_VA, .aboutMeSection---MkQa, .footer-3naVBw, .footer-1N3bR3, .bodyInnerWrapper-2bQs1k, .profileBannerPreview-3_l0Wd, .userPopout-2j1gM4, .bannerNormal-22rPhb {
-      background-color: var(--background-floating) !important;
+      background-color: #a5adce !important;
   }
   .bd-button {
-      background-color: #3e82e5;
+      background-color: #626880;
   }
-  .contentWrapper-3vHNP2 {
-      background-color: var(--background-tertiary) !important;
-  }
+  
